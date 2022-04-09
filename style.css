@@ -150,7 +150,11 @@ body {
 }
 
 .card-buy {
+    border: none;
+    background-color: transparent;
     cursor: pointer;
+    font-family: Montserrat-SemiBold;
+    font-size: 17px;
 }
 /* footer */
 .footer {
