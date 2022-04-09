@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleBasket.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
                 </svg>
                 <div class="counter counter-bookmark"><span>2</span></div>
             </a>
-            <a class="button button-basket" href="./basket.html">
+            <a class="button button-basket" href="#">
                 <svg class="header-icon">
                     <use xlink:href="./assets/svg/sprite.svg#basket"></use>
                 </svg>
@@ -24,18 +25,19 @@
         </nav>
     </header>
     <main class="main">
-        <section class="headphones">
-            <h2 class="title-section">Наушники</h2>
-            <div class="wrap-headphones">
+        <section class="main-basket">
+            <h2 class="title-section">Корзина</h2>
+            <div class="wrap-basket-items">
 
             </div>
         </section>
-        <!-- <section class="headphones">
-            <h2 class="title-section">Беспроводные наушники</h2>
-            <div class="wrap-headphones">
-                
+        <section class="main-result">
+            <div class="wrap-result"> 
+                <p class="p-result">ИТОГО</p>
+                <p class="result-sum">&#8381; </p>
             </div>
-        </section> -->
+            <button class="button-concluded-buy">Перейти к оформлению</button>
+        </section>
     </main>
     <footer class="footer">
         <h2 class="footer-title">QPICK</h2>
@@ -74,6 +76,6 @@
             </a>
         </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./scriptBasket.js"></script>
 </body>
 </html>
